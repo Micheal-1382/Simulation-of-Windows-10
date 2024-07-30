@@ -1,0 +1,28 @@
+.continer > .down > .W3{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 744px;
+    float: left;
+}
+.continer > .down > .W3 > div{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 49.5px;
+    float: left;
+    cursor: pointer;
+}
+.continer > .down > .W3 > div:last-child{
+    width: 90px;
+    height: 100%;
+    float: right;
+}
+.continer > .down > .W3 > div > img{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+}
+.continer > .down > .W3 > div:hover{
+    box-shadow: 0 0 3px 1px #fff inset;
+}

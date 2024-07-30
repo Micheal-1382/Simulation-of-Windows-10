@@ -1,0 +1,79 @@
+.continer > #onoff{
+    position: absolute;
+    background: black;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+.continer > #onoff.hide{
+    display: none;
+}
+.continer > #onoff >div:nth-child(1){
+    display: block;
+    /* animation: anim1 2s linear infinite; */
+    /* border: 1px solid #fff; */
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 120px auto;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 200px;
+    color: #fff;
+    /* box-shadow: 0 0 130px 1px aqua; */
+}
+.continer > #onoff >div:nth-child(1).hide{
+    display: none;
+}
+.continer > #onoff >div:nth-child(2){
+    /* border: 1px solid #fff; */
+    height: 40px;
+    width: 220px;
+    margin: 150px auto;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+}
+.continer > #onoff >div:nth-child(2).hide{
+    display: none;
+}
+.continer > #onoff >div:hover{
+    color: aqua;
+}
+.continer > #onoff >div:nth-child(3){
+    position: relative;
+    animation: anim2 3.5s linear infinite;
+    border: 22px dotted aqua;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    top: 150px;
+    /* box-shadow: 0 0 20px 1px aqua inset,0 0 50px 1px aqua; */
+    display: none;
+}
+.continer > #onoff >div:nth-child(3).show{
+    display: block;
+}
+
+@keyframes anim1{
+    0%{
+        box-shadow: 0 0 0px 0px aqua;
+    }
+    50%{
+        box-shadow: 0 0 130px 1px aqua;
+    }
+    100%{
+        box-shadow: 0 0 0px 0px aqua;
+    }
+}
+@keyframes anim2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,201 @@
+#rightclick.show{
+    position: absolute;
+    background: rgb(225, 225, 225);
+    height: 300px;
+    width: 400px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+#rightclick.hide{
+    display: none;
+}
+#rightclick > li{
+    position: relative;
+    /* border: 1px solid red; */
+    background: rgb(225, 225, 225);
+    height: 20px;
+    font-size: 12px;
+    text-indent: 30px;
+    padding-top: 5px;
+}
+#rightclick > li:hover{
+    background: #fff;
+}
+#rightclick > li:nth-child(3){
+    border-bottom: 1px solid #666;
+}
+#rightclick > li:nth-child(4),
+#rightclick > li:nth-child(5){
+    color: rgb(151, 151, 151);
+}
+#rightclick > li:nth-child(4):hover,
+#rightclick > li:nth-child(5):hover{
+    background:  rgb(225, 225, 225);
+}
+#rightclick > li:nth-child(1) > span,
+#rightclick > li:nth-child(2) > span,
+#rightclick > li:nth-child(6) > span,
+#rightclick > li:nth-child(10) > span{
+    float: right;
+    font-weight: bolder;
+    font-size: 14;
+}
+#rightclick > li:nth-child(7){
+    background: url("../images/1.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(7):hover{
+    background: #fff url("../images/1.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(8){
+    border-bottom: 1px solid #666;
+    background: url("../images/1.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(8):hover{
+    background: #fff url("../images/1.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(9){
+    border-bottom: 1px solid #666;
+    background: url("../images/nvidia-settings-icon.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(9):hover{
+    background: #fff url("../images/nvidia-settings-icon.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(10){
+    height: 23px;
+    border-bottom: 1px solid #666;
+}
+#rightclick > li:nth-child(11){
+    background: url("../images/Capture-desktop.PNG") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(11):hover{
+    background: #fff url("../images/Capture-desktop.PNG") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(12){
+    background: url("../images/png-transparent-computer-icons-windows-10-file-explorer-personal-computer-taskbar-computer-computer-computer-monitor-accessory-windows-thumbnail.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+#rightclick > li:nth-child(12):hover{
+    background:#fff url("../images/png-transparent-computer-icons-windows-10-file-explorer-personal-computer-taskbar-computer-computer-computer-monitor-accessory-windows-thumbnail.png") no-repeat 0 50%;
+    background-size: 17px;
+}
+/* -------------------------layer2-------------------------- */
+#rightclick > li:nth-child(1) > #onrightclick.show{
+    position: absolute;
+    background: rgb(225, 225, 225);
+    height: 150px;
+    width: 230px;
+    top: -10px;
+    left: 100%;
+    margin: 0;
+    padding: 8px;
+}
+#rightclick > li:nth-child(1) > #onrightclick.show > li:hover{
+    background: #fff;
+}
+#rightclick > li:nth-child(1) > #onrightclick.hide{
+    display: none;
+}
+#rightclick > li:nth-child(1) > #onrightclick >li{
+    /* border: 1px solid black; */
+    height: 20px;
+    list-style: none;
+    padding-top: 5px;
+    text-indent: 30px;
+}
+#rightclick > li:nth-child(1) > #onrightclick >li >label{
+    padding-left: 5px;
+}
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(1),
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(2),
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(3){
+    text-indent: 0;
+}
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(3){
+    border-bottom: 1px solid #666;
+}
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(5){
+    border-bottom: 1px solid #666;
+}
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(5),
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(6){
+    text-indent: 0;
+}
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(5) > label,
+#rightclick > li:nth-child(1) > #onrightclick >li:nth-child(6) > label{
+    padding-left: 5px;
+}
+#rightclick > li:nth-child(2) > #underonrightclick.show{
+    position: absolute;
+    background: rgb(225, 225, 225);
+    height: 100px;
+    width: 190px;
+    top: 0px;
+    left: 100%;
+    margin: 0;
+    padding: 8px;
+}
+#rightclick > li:nth-child(2) > #underonrightclick.hide{
+    display: none;
+}
+#rightclick > li:nth-child(2) > #underonrightclick > li{
+    height: 20px;
+    padding-top: 5px;
+    list-style: none;
+}
+#rightclick > li:nth-child(2) > #underonrightclick > li:hover{
+    background: #fff;
+}
+#rightclick > li:nth-child(10) > #neww.show{
+    position: absolute;
+    background: rgb(225, 225, 225);
+    height: 362px;
+    width: 280px;
+    top: 0;
+    left: 100%;
+    margin: 0;
+    padding: 8px;
+}
+#rightclick > li:nth-child(10) > #neww.hide{
+    display: none;
+}
+#rightclick > li:nth-child(10) > #neww >li{
+    /* border: 1px solid black; */
+    height: 18px;
+    list-style: none;
+    padding-top: 5px;
+    text-indent: 10px;
+}
+#rightclick > li:nth-child(10) > #neww >li:hover{
+    background: #fff;
+}
+#rightclick > li:nth-child(10) > #neww >li:nth-child(2){
+    border-bottom: 1px solid #666;
+}
+#rightclick > li:nth-child(10) > #neww >li >img{
+    float: left;
+    height: 100%;
+    width: 20px;
+    text-indent: 10px;
+}
+#rightclick > li:nth-child(10) > #neww >li:nth-child(2)>img,
+#rightclick > li:nth-child(10) > #neww >li:nth-child(7)>img,
+#rightclick > li:nth-child(10) > #neww >li:nth-child(9)>img,
+#rightclick > li:nth-child(10) > #neww >li:nth-child(10)>img,
+#rightclick > li:nth-child(10) > #neww >li:nth-child(11)>img,
+#rightclick > li:nth-child(10) > #neww >li:nth-child(12)>img,
+#rightclick > li:nth-child(10) > #neww >li:nth-child(13)>img{
+    width: 15px;
+}

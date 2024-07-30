@@ -1,0 +1,20 @@
+.continer{
+    position: relative;
+    background: #fff;
+    height: 93%;
+    width: 100%;
+}
+.continer > .up{
+    position: relative;
+    background: #222 url("../images/Wicon/5838119.jpg") no-repeat 50% 50%;
+    background-size: 1540px;
+    height: 698px;
+    overflow: hidden;
+}
+.continer > .down{
+    position: relative;
+    /* border: 1px solid red; */
+    background: rgb(214, 217, 230);
+    height: 42px;
+    z-index: 10;
+}

@@ -1,0 +1,27 @@
+.continer > .down > .W2{
+    border: 3px solid #fff;
+    background: #fff;
+    height: 87%;
+    width: 338px;
+    float: left;
+}
+.continer > .down > .W2:hover{
+    border: 3px solid rgb(177, 177, 177);
+}
+.continer > .down > .W2 > i{
+    position: relative;
+    /* border: 1px solid black; */
+    transform: rotateY(180deg);
+    top: 0;
+    margin-left: 10px;
+    font-size: 17.5px;
+    
+}
+.continer > .down > .W2 >input{
+    height: 86%;
+    width: 296px;
+    /* margin-top: 1px; */
+    border: none;
+    outline: none;
+    font-size: 14.5px;
+}

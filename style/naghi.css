@@ -1,0 +1,39 @@
+.continer > .up > #naghimamuly{
+    display: none;
+    position: absolute;
+    background: #fff;
+    height: 500px;
+    width: 800px;
+    top: 80px;
+    left: 350px;
+    direction: rtl;
+    z-index: 20;
+    overflow: hidden;
+}
+.continer > .up > #naghimamuly > #nm{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    height: 30px;
+    width: 40px;
+    top: 0;
+    right: 0;
+    line-height: 30px;
+    color: #666;
+    text-align: center;
+}
+.continer > .up > #naghimamuly > #move{
+    position: absolute;
+    background: #fff;
+    height: 30px;
+    width: 760px;
+    top: 0;
+    left: 0;
+}
+.continer > .up > #naghimamuly > #nm:hover{
+    background: red;
+    color: #fff;
+}
+.continer > .up > #naghimamuly > video{
+    height: 500px;
+    width: 800px;
+}

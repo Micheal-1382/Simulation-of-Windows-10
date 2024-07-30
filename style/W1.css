@@ -1,0 +1,352 @@
+.continer > .down > .W1{
+     border-right: 1px solid rgb(179, 179, 179);
+    height: 100%;
+    width: 48px;
+    font-size: 17px;
+    text-align: center;
+    float: left;
+}
+.continer > .down > .W1:hover{
+    background: #fff;
+}
+.continer > .down > .W1 > i{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.continer > .down > .W1:hover > i{
+    color: rgb(0, 200, 255);
+}
+.continer > .down > .W1 > #win.show{
+    position: relative;
+    background: rgb(222, 222, 222);
+    height: 640px;
+    width: 973px;
+    top: -668px;
+    left: 0;
+    z-index: 10;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.continer > .down > .W1 > #win.hide{
+    height: 0;
+    top: -28px;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn1{
+    /* border: 1px solid black; */
+    width: 45px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > li{
+    /* border: 1px solid black; */
+    list-style: none;
+    height: 50px;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > li:hover{
+    background: #fff;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > li > i{
+    margin-top: 15px;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > li:nth-child(1){
+    margin-bottom: 340px;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > ul.show{
+    position: absolute;
+    background: rgb(222, 222, 222,0.95);
+    border-right: 1px solid #ccc;
+    width: 250px;
+    top: 0;
+    left: 45px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: 0.5s;
+    overflow: hidden;
+    direction: rtl;
+    /* opacity: 1; */
+    z-index: 10;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > ul.hide{
+    width: 0px;
+    overflow: hidden;
+    transition: 1s;
+    direction: rtl;
+    /* opacity: 1; */
+}
+.continer > .down > .W1 > #win.show > .culmn1 > ul > li{
+    list-style: none;
+    padding-left: 10px ;
+    text-align: left;
+    height: 35px;
+    padding-top: 15px;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > ul > li:hover{
+    background: #fff;
+}
+.continer > .down > .W1 > #win.show > .culmn1 > ul > li:nth-child(1){
+    margin-bottom: 340px;
+}
+.continer > .down > .W1 > #win.show > .culmn2{
+    /* border: 1px solid red; */
+    background: rgb(234, 234, 234);
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li{
+    /* border: 1px solid black; */
+    /* background: #ccc; */
+    padding-bottom: 10px;
+    padding-top: 13px;
+    text-indent: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    list-style: none;
+    text-align: left;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li:hover{
+    background: #fff;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li>img{
+    position: relative;
+    height: 23px;
+    width: 23px;
+    float: left;
+    top: -8px;
+    margin-left: 5px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li:nth-child(2)>img{
+    border-radius: 15px;
+    height: 22px;
+    width: 22px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li:nth-child(9)>img{
+    height: 18px;
+    width: 23px;
+    margin-top: 4px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li:nth-child(15)>img{
+    border-radius: 15px;
+    height: 22px;
+    width: 22px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li:nth-child(24)>img{
+    border-radius: 15px;
+    height: 22px;
+    width: 22px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li > input{
+    display: none;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li > label{
+    float: right;
+    padding: 5px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(10){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li > ul{
+    display: none;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(10) > #a1:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(10) > #a1:checked+label{
+    transform: rotateX(180deg);
+}
+
+.continer > .down > .W1 > #win.show > .culmn2 > li > ul > li{
+    /* border: 1px solid red; */
+    height: 20px;
+    padding-top: 10px;
+    list-style: none;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li > ul > li:hover{
+    background: #fff;
+}
+.continer > .down > .W1 > #win.show > .culmn2 >li> ul > li > img{
+    position: relative;
+    height: 23px;
+    width: 23px;
+    float: left;
+    top: -8px;
+    margin-left: 0px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li > ul > li > input{
+    display: none;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li > ul > li > label{
+    float: right;
+    padding-right: 10px;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(14){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(14) > #a2:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(14) > #a2:checked+label{
+    transform: rotateX(180deg);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(26){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(26) > #a3:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(26) > #a3:checked+label{
+    transform: rotateX(180deg);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(28){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(28) > #a4:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(28) > #a4:checked+label{
+    transform: rotateX(180deg);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(30){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(30) > #a5:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(30) > #a5:checked+label{
+    transform: rotateX(180deg);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(32){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234)c;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(32) > #a6:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(32) > #a6:checked+label{
+    transform: rotateX(180deg);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(34){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(34) > #a7:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(34) > #a7:checked+label{
+    transform: rotateX(180deg);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(36){
+    padding-bottom: 0;
+    border-bottom: 10px solid rgb(234, 234, 234);
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(36) > #a8:checked~ul{
+    display: block;
+    margin-top: 10px;
+    background: rgb(234, 234, 234);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn2 > li:nth-child(36) > #a8:checked+label{
+    transform: rotateX(180deg);
+}
+.continer > .down > .W1 > #win.show > .culmn3{
+    position: relative;
+    background: rgb(234, 234, 234);
+    width: 600px;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    padding: 20px;
+    float: left;
+    overflow: hidden;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li{
+    border: 1px solid rgb(227, 227, 227);
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li:nth-child(1){
+    border: 1px solid rgb(234, 234, 234);
+    background: rgb(234, 234, 234);
+    text-align: left;
+    height: 15px;
+    width: 100%;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li:nth-child(1)>span{
+    margin-left: 275px;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li:nth-child(5){
+    margin-left: 15px;
+    margin-right: 100px;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li:nth-child(8){
+    margin-left: 125px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li:nth-child(9){
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li:hover{
+    box-shadow: 0 0 3px 2px rgb(220, 220, 220) inset;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li > img{
+    height: 70%;
+    width: 70%;
+    margin-top: 15px;
+}
+.continer > .down > .W1 > #win.show > .culmn3 >li >p{
+    margin-top: -3px;
+    text-align: left;
+    text-indent: 3px;
+}
